@@ -1,0 +1,23 @@
+body{
+    background-image: url("../assets/Login.jpg");    
+    opacity: .9;
+    overflow: hidden;
+}
+
+.body{
+    height: 110vh;
+    padding-top:10vh;
+    margin-top: -10vh;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+form{
+    
+    background-color: rgba(0, 0, 0, .4);
+    color:white;
+    border-radius: 10px;
+}
+
+#title{
+    font-size: xx-large;
+}

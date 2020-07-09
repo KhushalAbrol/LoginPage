@@ -1,0 +1,66 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px; }
+  
+.row-content {
+margin: 0px auto;
+padding: 50px 0px;
+border-bottom: 1px ridge;
+min-height: 400px; }
+
+.footer {
+background-color: #F8BBD0;
+margin: 0px auto;
+padding: 20px 0px; }
+
+.jumbotron {
+margin: 0px auto;
+padding: 70px 30px;
+background:url("../assets/bg2.png");
+color: floralwhite; }
+
+#title{
+    height:50vh;
+    margin-top: -7vh;
+    margin-bottom: -10vh;
+    padding:20px;
+    width: 110vw;
+    margin-left: -10vw;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+address {
+font-size: 80%;
+margin: 0px;
+color: #0f0f0f; }
+
+body {
+padding: 50px 0px 0px 0px;
+z-index: 0; }
+
+.navbar-dark {
+background-color: #880E4F;
+ }
+
+.tab-content {
+border-left: 1px solid #ddd;
+border-right: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+padding: 10px; }
+
+.modal:before{
+align-self: center;
+vertical-align: middle;
+}
+
+.modal-header {
+background: #880E4F; }
+
+.modal-header .close {
+    color: floralwhite; }
+
+.modal-title {
+color: floralwhite; }
+
+.modal-body {
+background: #EC407A; }
