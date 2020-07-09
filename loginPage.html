@@ -25,26 +25,26 @@
                         <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                     </ul>
                     <span class="navbar-text mr-2">
-                        <a href="login.html" id="loginBtn" class="btn btn-warning btn-block nav-link"><span class="fa fa-sign-in"></span> Login</a>
+                        <a href="login.html" id="loginBtn" class="btn btn-outline-info btn-block nav-link"><span class="fa fa-sign-in"></span> Login</a>
                     </span>
                     <span class="navbar-text">
-                        <a href="signup.html" id="signUpBtn" class="btn btn-warning btn-block nav-link"><span class="fa fa-sign-in"></span> SignUp</a>
+                        <a href="signup.html" id="signUpBtn" class="btn btn-outline-info btn-block nav-link"><span class="fa fa-sign-in"></span> SignUp</a>
                     </span>
                 </div>               
             </div>
         </nav>
         <div  id="title">
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row row-header">
                     <div class="col-12 col-sm-6">
                         <h1>Note:</h1>
                         <p> This Page is a page with Login and Signup options. Please note in this page I am <b>not</b> using modals to implement Login and signup, I am using two different pages for login and signup purposes. Also this is just the front end part. There forms nither store any entered data nor Validate it. These can be validated using Regex.</p>
                     </div>
-                    <div class="col-12 col-sm align-self-right">
+                    <div class="col-12 col-sm-2 align-self-right">
                         <img src="assets/logo-white.png"  height="200" width="210" class="img-fluid">
                     </div>
-                    <div class="col-12 col-sm align-self-center">
-                        <a href="index.html" id="signUpBtn" class="btn btn-warning btn-block nav-link"><span class="fa fa-file-o "></span>  Previous Login Page</a>
+                    <div class="col-12 col-sm-3 offset-1 align-self-center">
+                        <a href="index.html" id="signUpBtn" class="btn btn-outline-info btn-block nav-link"><span class="fa fa-file-o "></span>  Previous Login Page</a>
                     </div>
                 </div>
             </div>
@@ -53,22 +53,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script>
-        $("#loginBtn").click(function() {
-        $("#loginModal").modal("show")
-        });
-        //to show reserve Modal when btn is clicked
-        $("#signUpBtn").click(function(){
-            $("#signUpModal").modal("show")
-        });
-        //to dismiss the login Modal when close button is clicked
-        $("#loginClose").click(function(){
-            $("#loginModal").modal("hide")
-        });
-        //to dismiss the reserve Modal when close button is clicked
-        $("#signUpClose").click(function(){
-            $("#signUpModal").modal("hide")
-        });
-    </script>
 </body>
 </html>
