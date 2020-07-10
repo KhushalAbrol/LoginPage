@@ -36,3 +36,14 @@ form{
     color:white;
     text-shadow: 2px 2px 2px black;
 }
+
+@media(max-width:480px){
+    .main{
+        padding-top: 35%;
+    }
+
+    #back{
+        margin-top: -65%;
+        margin-left: 7px;
+    }
+}

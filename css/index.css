@@ -53,3 +53,10 @@ color: floralwhite; }
 
 .modal-body {
 background: #B3E5FC; }
+
+
+@media(max-width: 480px) {
+    #img{
+        display: none;
+    }
+      }

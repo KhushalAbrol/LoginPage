@@ -21,3 +21,17 @@ form{
 #title{
     font-size: xx-large;
 }
+
+
+@media(max-width:480px){
+    .body{
+        height: 150vh;
+        padding-top: 10vh;
+        margin: -10vh;
+        background-color: none;
+        overflow-y: hidden;
+    }
+    form{
+        padding:0 10vh;
+    }
+}
